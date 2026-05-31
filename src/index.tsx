@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import CreateTest from './pages/CreateTest';
+import AddQuestions from './pages/AddQuestions';
+import PreviewPublish from './pages/PreviewPublish';
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Login />
+    <Dashboard />
+    <CreateTest />
+    <AddQuestions />
+    <PreviewPublish />
   </React.StrictMode>
 );
 
